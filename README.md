@@ -31,3 +31,13 @@ DEFAULT CHARSET=utf8mb4
 COLLATE=utf8mb4_0900_ai_ci;
 ~~~
 
+### Pontos Principais de Trabalho:
+
+- Adicição dos ficheiros css e js do bootstrap a raíz do projeto
+- Criação da página index.php
+- Adição do código base do bootstrap para a estrutura inicial
+- Adição do código nav do bootstrap
+- Modificação do código inicial conforme o que necessito
+- Criando um Switch para as rotas
+- Adicionando o Rota em nosso menu de navegação
+
