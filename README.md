@@ -48,3 +48,5 @@ COLLATE=utf8mb4_0900_ai_ci;
 - Mensagem ao Registar com Sucesso
 - Código do listar utilizadores e estilos
 - Inserir os botões editar e apagar
+- Criar página editar-utilizador.php
+- Código e lógica botão editar
