@@ -1,5 +1,6 @@
 <h1>Novo Utilizador</h1>
 <form action="?page=salvar" method="POST">
+    <input type="hidden" name="acao" value="inserir">
     <div class="mb-3">
         <label for="">Nome</label>
         <input type="text" name="nome" class="form-control">
