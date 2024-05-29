@@ -50,3 +50,4 @@ COLLATE=utf8mb4_0900_ai_ci;
 - Inserir os botões editar e apagar
 - Criar página editar-utilizador.php
 - Código e lógica botão editar
+- Código e lógica do botão eliminar

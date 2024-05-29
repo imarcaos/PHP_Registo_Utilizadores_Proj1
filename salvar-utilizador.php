@@ -50,7 +50,17 @@
             }
             break;
 
-        case 'apagar':
-            # code...
+        case 'apagar':            
+            $sql = "DELETE FROM usuarios WHERE id=".$_REQUEST["id"];
+
+            $res = $conn->query($sql);
+            
+            if ($res==true) {
+                print "<script>alert('Apagado com Sucesso!');</script>";
+                print "<script>location.href='?page=listar';</script>";
+            } else {
+                print "<script>alert('Não foi possível Apagar!');</script>";
+                print "<script>location.href='?page=listar';</script>";
+            }
             break;
 }

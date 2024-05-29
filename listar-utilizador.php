@@ -23,8 +23,8 @@
             print "<td>" .$row->email. "</td>";
             print "<td>" .$row->data_nasc. "</td>";
             print "<td>
-                        <button onclick=\"location.href='?page=editar&id=".$row->id."'\" class='btn btn-success'>Editar</button>
-                        <button class='btn btn-danger'>Apagar</button>
+                        <button onclick=\"location.href='?page=editar&id=".$row->id."';\" class='btn btn-success'>Editar</button>
+                        <button onclick=\"if(confirm('Tem certeza que deseja Apagar?!' )){location.href='?page=salvar&acao=apagar&id=".$row->id."';}else{false;}\" class='btn btn-danger'>Apagar</button>
                    </td>";
             print "</tr>";
         }
