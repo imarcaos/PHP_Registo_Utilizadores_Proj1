@@ -13,6 +13,14 @@ CRUD - Inserção, Leitura, Atualização e Excluzão de utilizadores
 - MySQL
 - DBeaver vou utilizar este SGBD para experimentar, outros que já utilizei: PHPMyADmin, HeidiSQL e WorkBench
 
+
+#### Projeto V1
+![Projeto Node FullStack Finalizado](/php_utilizador_adicionar.png)
+
+![Projeto Node FullStack Finalizado](/php_utilizador_listar.png)
+
+
+
 Criar a Base de Dados de forma manual ou visual
 
 #### Base de Dados:
@@ -51,3 +59,4 @@ COLLATE=utf8mb4_0900_ai_ci;
 - Criar página editar-utilizador.php
 - Código e lógica botão editar
 - Código e lógica do botão eliminar
+- Projeto v1 terminado e Readme
