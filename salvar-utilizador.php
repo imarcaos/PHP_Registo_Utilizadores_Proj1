@@ -16,6 +16,13 @@
                     ";
             $res = $conn->query($sql);
             
+            if ($res==true) {
+                print "<script>alert('Registo feito com Sucesso!');</script>";
+                print "<script>location.href='?page=listar';</script>";
+            } else {
+                print "<script>alert('Não foi possível Registar!');</script>";
+                print "<script>location.href='?page=listar';</script>";
+            }
             break;
 
         case 'editar':
