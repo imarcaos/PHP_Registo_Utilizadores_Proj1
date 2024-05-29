@@ -46,3 +46,4 @@ COLLATE=utf8mb4_0900_ai_ci;
 - Adicionado ao formulário o método de inserir
 - Para a senha não ficar exposta em nossa BD, será criado um método simples de codifição, md5
 - Mensagem ao Registar com Sucesso
+- Código do listar utilizadores e estilos
