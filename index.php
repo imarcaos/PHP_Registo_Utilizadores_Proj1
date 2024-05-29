@@ -35,17 +35,19 @@
         <div class="row">
             <div class="col mt-5">
                 <?php
-                switch (@$_REQUEST["page"]) {
-                    case 'novo':
-                        include("novo-utilizador.php");
-                        break;
-                    case 'listar':
-                        include("listar-utilizador.php");
-                        break;
-                    default:
-                        print "<h1>Bem vindos!</h1>";
-                        break;
-                }
+                    include("config.php");
+                    
+                    switch (@$_REQUEST["page"]) {
+                        case 'novo':
+                            include("novo-utilizador.php");
+                            break;
+                        case 'listar':
+                            include("listar-utilizador.php");
+                            break;
+                        default:
+                            print "<h1>Bem vindos!</h1>";
+                            break;
+                    }
                 ?>
             </div>
         </div>

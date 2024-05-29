@@ -40,5 +40,6 @@ COLLATE=utf8mb4_0900_ai_ci;
 - Modificação do código inicial conforme o que necessito
 - Criando um Switch para as rotas
 - Adicionando o Rota em nosso menu de navegação
-- Ficheiro config com os dados de conexão com a BD
+- Criado o ficheiro config com os dados de conexão com a BD
+- Formulário para inserir os dados novo-utilizador.php
 
