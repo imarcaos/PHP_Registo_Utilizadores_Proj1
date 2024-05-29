@@ -44,3 +44,4 @@ COLLATE=utf8mb4_0900_ai_ci;
 - Formulário para inserir os dados novo-utilizador.php
 - Criando a página salvar-utilizador.php onde terá um switch com o SQL
 - Adicionado ao formulário o método de inserir
+- Para a senha não ficar exposta em nossa BD, será criado um método simples de codifição, md5
