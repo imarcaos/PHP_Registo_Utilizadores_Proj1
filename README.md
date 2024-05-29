@@ -11,7 +11,7 @@ CRUD - Inserção, Leitura, Atualização e Excluzão de utilizadores
 - Apache com PHP (ou outro servidor web)
 - BootStrap
 - MySQL
-- DBeaver vou utilizar este para experimentar, outros que já utilizei: PHPMyADmin, HeidiSQL e WorkBench
+- DBeaver vou utilizar este SGBD para experimentar, outros que já utilizei: PHPMyADmin, HeidiSQL e WorkBench
 
 Criar a Base de Dados de forma manual ou visual
 
