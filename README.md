@@ -1,6 +1,3 @@
-# PHP_Registo_Utilizadores_Proj1
-projeto 1 em php para registo de utilizadores
-
 # Projeto 1 - PHP Registo de Utilizadores
 Início: 2024/05/29
 
@@ -17,7 +14,8 @@ CRUD - Inserção, Leitura, Atualização e Excluzão de utilizadores
 - DBeaver vou utilizar este para experimentar, outros que já utilizei: PHPMyADmin, HeidiSQL e WorkBench
 
 Criar a Base de Dados de forma manual ou visual
-Base de Dados:
+
+#### Base de Dados:
 
 ~~~sql
 CREATE TABLE php_user.usuarios (
