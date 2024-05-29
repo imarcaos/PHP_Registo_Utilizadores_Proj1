@@ -29,7 +29,7 @@
             # code...
             break;
 
-        case 'eliminar':
+        case 'apagar':
             # code...
             break;
 }
